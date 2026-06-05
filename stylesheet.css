@@ -1,0 +1,262 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    background-color: rgba(227, 245, 245, 0.24);
+    font-family: 'Inter', sans-serif;
+}
+
+.logo i {
+    background-color: blueviolet;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.logo p {
+    margin-bottom: 0;
+    color: rgb(165, 164, 164);
+    font-size: 12px;
+}
+
+.hub {
+    color: blueviolet;
+}
+
+.logo a {
+    font-weight: 700;
+    font-size: 27px;
+}
+
+.photo {
+    width: 50px;
+    height: 50px;
+    display: block;
+    padding: 0;
+    border-radius: 15px;
+}
+
+.photo img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.add {
+    background-color: blueviolet;
+    border-radius: 15px;
+    border: none;
+}
+
+.active {
+    color: white !important;
+}
+
+.add:hover {
+    box-shadow: 0 9px 10px -2px rgb(191, 142, 236);
+    transition: 0.3s;
+    transform: translateY(-1px);
+}
+
+.bell,
+.gear {
+    border: none;
+    background-color: transparent;
+    padding: 5px;
+}
+
+.bell:hover {
+    background-color: rgb(240, 239, 239);
+    border-radius: 10px;
+}
+
+.gear:hover {
+    background-color: rgb(245, 243, 243);
+    border-radius: 10px;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px !important;
+    box-shadow: 2px 2px 2px rgb(216, 216, 216);
+}
+
+.card i {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.user {
+    background-color: rgb(121, 121, 207);
+    border-radius: 10px;
+}
+
+h5 {
+    margin-bottom: 0 !important;
+}
+
+.star {
+    background-color: rgb(245, 121, 5);
+    border-radius: 10px;
+}
+
+.heart {
+    background-color: rgb(245, 41, 5);
+    border-radius: 10px;
+}
+
+.searchDetails {
+    padding-block: 100px;
+}
+
+.glass {
+    position: absolute;
+    top: 7px;
+    left: 20px;
+    z-index: 5;
+    color: gray;
+}
+
+.book {
+    font-size: 40px;
+}
+
+#search {
+    padding-left: 50px;
+}
+
+.card-header1 {
+    background-color: rgba(245, 245, 159, 0.42);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card-header1 h4 {
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.card-header2 {
+    background-color: rgba(245, 176, 159, 0.42);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card-header2 h4 {
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.card span {
+    font-size: 15px;
+    color: gray;
+}
+
+.image {
+    padding: 5px;
+    color: rgb(238, 6, 6);
+    font-size: 20px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+   box-shadow: 1px 1px 8px gray;
+}
+
+.profile-picture .btn {
+    background-color: rgb(241, 240, 240);
+}
+
+.btn:hover {
+    background-color: rgb(228, 227, 227);
+}
+
+label>span {
+    color: red;
+}
+
+form label {
+    font-size: 14px;
+    color: gray;
+    text-align: left;
+}
+
+form {
+    height: 400px;
+    overflow-y: auto;
+}
+
+.staro {
+    color: gold;
+}
+
+.pulseo {
+    color: red;
+}
+
+.contact-card {
+    background-color: rgb(253, 252, 252);
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid rgb(241, 241, 241);
+}
+
+.contact-card p {
+    margin-bottom: 0;
+}
+
+.delete-btn {
+    background-color: transparent;
+    color: rgb(168, 167, 167);
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px;
+}
+
+.delete-btn:hover {
+    background-color: rgba(236, 200, 195, 0.66);
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: transparent;
+    color: rgb(175, 173, 173);
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px;
+}
+
+.edit-btn:hover {
+    background-color: rgba(218, 232, 243, 0.73);
+    cursor: pointer;
+}
+
+.contact-card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.icon {
+    color: green !important;
+}
+
+.icon:hover {
+    background-color: rgb(235, 252, 235) !important;
+    cursor: pointer;
+}
