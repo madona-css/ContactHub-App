@@ -223,6 +223,8 @@ function updateCounters() {
 
 
 function editContact(index) {
+
+
     const contact = contacts[index];
     console.log(contact.color);
     fullNameInput.value = contact.fullName;
@@ -240,7 +242,7 @@ function editContact(index) {
     const modal = new
         bootstrap.Modal(document.getElementById('contactModal'));
     modal.show();
-    
+   
 }
 
 
