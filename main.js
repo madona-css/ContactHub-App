@@ -223,8 +223,6 @@ function updateCounters() {
 
 
 function editContact(index) {
-
-
     const contact = contacts[index];
     console.log(contact.color);
     fullNameInput.value = contact.fullName;
@@ -237,7 +235,6 @@ function editContact(index) {
     emergencyCheckbox.checked = contact.isEmergency;
     const editProfilePic = document.querySelector('#editProfilePic');
     editProfilePic.textContent = contact.profilePic ;
-
     editIndex = index;
     const modal = new
         bootstrap.Modal(document.getElementById('contactModal'));
